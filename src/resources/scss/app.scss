@@ -1,10 +1,27 @@
 @import 'variables';
 
+.container {
+  padding: 36px 12px;
+  margin-bottom: 24px;
+  position: relative;
+}
+
 .search-form {
-  margin-top: 10px;
+  padding: 12px 12px;
 }
 
 .form-control {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.btn-primary {
+  position: absolute;
+  right: 24px;
+  bottom: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
 }

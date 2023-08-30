@@ -1,12 +1,12 @@
 class News {
   // GET /news
   index(req, res) {
-    res.render("news");
+    res.render('news');
   }
 
   // GET /news/:slug
   show(req, res) {
-    res.send("New Details");
+    res.send('New Details');
   }
 }
 
